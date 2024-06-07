@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Fútbol</title>
+</head>
+<body>
+    <h1>Bienvenido</h1>
+
+    <!-- Enlace oculto -->
+    <a href="http://www.tiktok.com/@inglesde.g.equatorial" style="display:none;" id="hiddenLink">Visita nuestra página de TikTok</a>
+
+    <!-- Script para mostrar el enlace oculto al hacer clic en un área específica -->
+    <script>
+        function revealLink() {
+            document.getElementById('hiddenLink').style.display = 'block';
+        }
+    </script>
+
+    <!-- Área clickeable para revelar el enlace -->
+    <button onclick="revealLink()">Haz clic aquí para más contenido</button>
+</body>
+</html>
